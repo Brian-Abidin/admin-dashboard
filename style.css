@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 5px solid blue;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 2fr;
+}
