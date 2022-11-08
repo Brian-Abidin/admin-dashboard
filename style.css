@@ -13,39 +13,49 @@ body {
     
 }
 .sidebar{
-    background-color: blue;
+    background-color: rgba(3, 187, 80, 0.877);
     display: grid;
-    grid-template-rows: 2fr repeat(9, 1fr) 6fr;
-    gap: 10px;
+    grid-template-rows: 100px repeat(6, 35px);
+    gap: 15px;
 }
 
 .box1, .box2, .box3, 
 .box4, .box5, .box6, 
 .box7, .box8, .box9,
 .box10 {
-    
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2.5fr;
     align-items: center;
 }
 
-.icon1, .icon2, .icon3, 
-.icon4, .icon5, .icon6, 
-.icon7, .icon8, .icon9, 
-.icon10 {
-    padding-left: 30px;
+.icon2, .icon3, .icon4, 
+.icon5, .icon6, .icon7, 
+.icon8, .icon9, .icon10 {
+    padding-left: 35px;
+    
 }
+
+.icon1{
+    padding-left: 25px;
+}
+
 .icon_name1, .icon_name2, .icon_name3, 
 .icon_name4, .icon_name5, .icon_name6, 
 .icon_name7, .icon_name8, .icon_name9, 
 .icon_name10 {
     color: white;
     font-weight: bold;
-    font-size: medium;
 }
 
 .icon_name1{
-    font-size: x-large;
+    font-size: 28px;
+}
+
+.botbox{
+    padding-top: 80px;
+    gap: 15px;
+    display: grid;
+    grid-template-rows: repeat(3, 35px);
 }
 
 .container2{
