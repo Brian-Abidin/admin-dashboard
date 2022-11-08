@@ -27,7 +27,6 @@ body {
     background-color: rgb(0, 194, 243);
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 10px;
     align-items: center;
 }
 
@@ -37,7 +36,7 @@ body {
 .icon10 {
     background-color: rgb(18, 10, 90);
     color: white;
-    
+    padding-left: 20px;
 }
 .icon_name1, .icon_name2, .icon_name3, 
 .icon_name4, .icon_name5, .icon_name6, 
