@@ -13,7 +13,6 @@ body {
     
 }
 .sidebar{
-    border: 2px solid rgb(0, 89, 255);
     background-color: blue;
     display: grid;
     grid-template-rows: 2fr repeat(9, 1fr) 6fr;
@@ -24,7 +23,7 @@ body {
 .box4, .box5, .box6, 
 .box7, .box8, .box9,
 .box10 {
-    background-color: rgb(0, 194, 243);
+    
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
@@ -34,16 +33,19 @@ body {
 .icon4, .icon5, .icon6, 
 .icon7, .icon8, .icon9, 
 .icon10 {
-    background-color: rgb(18, 10, 90);
-    color: white;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 .icon_name1, .icon_name2, .icon_name3, 
 .icon_name4, .icon_name5, .icon_name6, 
 .icon_name7, .icon_name8, .icon_name9, 
 .icon_name10 {
-    background-color: rgb(253, 253, 253);
-    
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.icon_name1{
+    font-size: x-large;
 }
 
 .container2{
