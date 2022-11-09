@@ -58,14 +58,15 @@ body {
 }
 
 .container2{
-    background-color: rgb(231, 102, 113);
     display: grid;
     grid-template-rows: 1fr 4fr;
 }
 
 .header{
+    background-color: rgb(247, 128, 183);
     display: grid;
     grid-template-rows: 1fr 1.25fr;
+    box-shadow: 1px 10px 5px #acabab;
 }
 
 .headertop{
@@ -104,7 +105,7 @@ body {
     display: grid;
     grid-template-columns: 50px repeat(2, 1fr);
     align-items: center;
-    justify-items: center;
+    justify-items: right;
     gap: 25px;
 }
 
@@ -113,6 +114,7 @@ body {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 15px;
+    justify-items: right;
 }
 
 .username{
@@ -145,14 +147,15 @@ body {
 .hbotright{
     display: grid;
     align-items: center;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: right;
+    grid-template-columns: repeat(3, .25fr);
+    
 }
 
 .newbtn, .uploadbtn, .sharebtn{
     background-color: rgba(0, 194, 243, 0.911);
-    width: 80px;
-    height: 40px;
+    width: 120px;
+    height: 45px;
     border-radius: 30px;
     color: white;
     font-size: medium;
@@ -162,13 +165,16 @@ body {
 }
 
 .content{
-    background-color: Brown;
+    padding-left: 25px;
+    padding-top: 25px;
     display: grid;
     grid-template-columns: 2.5fr 1fr;
 }
 
 .content_left{
     background-color: darkolivegreen;
+    font-size: x-large;
+    font-weight: 800;
 }
 
 .content_right{
