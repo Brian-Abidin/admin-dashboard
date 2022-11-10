@@ -213,3 +213,9 @@ body {
     border-radius: 15px;
     padding: 15px;
 }
+
+.announce_title1, .announce_title2, .announce_title3, 
+.trend_tag1, .trend_tag2, 
+.trend_tag3, .trend_tag4{
+    font-weight:700;
+}
