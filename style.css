@@ -59,29 +59,26 @@ body {
 
 .container2{
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 200px 4fr;
 }
 
 .header{
     background-color: rgb(247, 128, 183);
     display: grid;
-    grid-template-rows: 1fr 1.25fr;
+    grid-template-rows: 1fr 1fr;
     box-shadow: 1px 10px 5px #acabab;
+    max-height: 200px;
 }
 
 .headertop{
-    
     display: grid;
     grid-template-columns: 2.5fr 1fr;
-    max-height: 96.22px;
 }
 
 .htopleft{
-    
     display: grid; 
     grid-template-columns: 50px 2fr;
     align-items: center;
-    
 }
 
 .iconbar{
@@ -91,7 +88,7 @@ body {
 .searchbar{
     height: 30px;
     border-radius: 30px;
-    max-width: 700px;
+    max-width: 900px;
     background-color: rgb(255, 255, 255);
     font-size: 18px;
     padding-left: 15px;
@@ -122,13 +119,11 @@ body {
 }
 
 .headerbottom{
-    
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
 .hbotleft{
-    
     display: grid;
     grid-template-columns: 80px 1fr;
     align-items: center;
@@ -166,9 +161,8 @@ body {
 
 .content{
     padding-left: 25px;
-    padding-top: 25px;
     display: grid;
-    grid-template-columns: 2.5fr 1fr;
+    grid-template-columns: 3.5fr 1fr;
 }
 
 .content_left{
@@ -177,21 +171,23 @@ body {
     font-weight: 800;
 }
 
-.content_right{
-    background-color: darkturquoise;
-}
-
 .projects{
     background-color:rgb(18, 10, 90);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 5px;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 15px;
 }
 
 .project1, .project2,
 .project3, .project4,
 .project5, .project6 {
-    width: 200px;
-    height: 200px;
     background-color: wheat;
+    border: 5px solid red; 
+    border-radius: 15px;
+}
+
+.content_right, .title_announce, .title_trending{
+    background-color: darkturquoise;
+    font-size: x-large;
+    font-weight: 800;
 }
