@@ -165,29 +165,51 @@ body {
     grid-template-columns: 3.5fr 1fr;
 }
 
-.content_left{
-    background-color: darkolivegreen;
-    font-size: x-large;
-    font-weight: 800;
+.content_left_title, .title_announce, .title_trending{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content_right{
+    margin-left: 15px;
 }
 
 .projects{
-    background-color:rgb(18, 10, 90);
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    align-items: center;
 }
 
-.project1, .project2,
-.project3, .project4,
-.project5, .project6 {
+.card1, .card2,
+.card3, .card4,
+.card5, .card6 {
+    min-height: 200px;
+    max-width: 450px;
     background-color: wheat;
-    border: 5px solid red; 
     border-radius: 15px;
+    text-align: left;
+    padding: 20px;
+    border-left: 6px solid orange;
 }
 
-.content_right, .title_announce, .title_trending{
-    background-color: darkturquoise;
+.ptitle1, .ptitle2, .ptitle3,
+.ptitle4, .ptitle5, .ptitle6,
+.ptitle7, .ptitle8, .ptitle9,
+.ptitle10{
     font-size: x-large;
     font-weight: 800;
+}
+
+.title_announce, .title_trending{
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.content_announcement, .content_trending{
+    background-color: wheat;
+    border-radius: 15px;
+    padding: 15px;
 }
