@@ -67,7 +67,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr;
     box-shadow: 1px 10px 5px #acabab;
-    max-height: 200px;
+    max-height: 170px;
 }
 
 .headertop{
@@ -173,7 +173,7 @@ body {
 }
 
 .content_right{
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .projects{
@@ -186,13 +186,13 @@ body {
 .card1, .card2,
 .card3, .card4,
 .card5, .card6 {
-    min-height: 200px;
-    max-width: 450px;
+    min-height: 300px;
     background-color: wheat;
     border-radius: 15px;
     text-align: left;
     padding: 20px;
     border-left: 6px solid orange;
+    text-overflow: ellipsis;
 }
 
 .ptitle1, .ptitle2, .ptitle3,
@@ -203,19 +203,38 @@ body {
     font-weight: 800;
 }
 
-.title_announce, .title_trending{
-    font-size: x-large;
-    font-weight: 800;
-}
-
 .content_announcement, .content_trending{
     background-color: wheat;
     border-radius: 15px;
-    padding: 15px;
+    padding: 30px;
+    text-overflow: ellipsis;
+    font-size: 15px;
 }
 
 .announce_title1, .announce_title2, .announce_title3, 
 .trend_tag1, .trend_tag2, 
 .trend_tag3, .trend_tag4{
     font-weight:700;
+}
+.announce_content1, .announce_content2{
+    border-bottom: 2px solid rgb(112, 112, 112);
+    padding-bottom: 10px;
+}
+
+.announce_title2, .announce_title3{
+    padding-top: 10px;
+}
+
+.trend1, .trend2, .trend3, .trend4{
+    display: grid;
+    grid-template-columns: 50px 150px;
+    padding-bottom: 20px;
+}
+
+.trend1, .trend2, .trend3{
+    padding-bottom: 20px;
+}
+
+.title_trending{
+    padding-top: 20px;
 }
