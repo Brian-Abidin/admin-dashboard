@@ -63,7 +63,7 @@ body {
 }
 
 .header{
-    background-color: rgb(255, 255, 255);
+    background-color: image;
     display: grid;
     grid-template-rows: 1fr 1fr;
     box-shadow: 1px 10px 5px #acabab;
@@ -166,12 +166,13 @@ body {
     display: grid;
     grid-template-columns: 3.5fr 1fr;
     background-color: lightgrey;
+    padding-bottom: 70px;
 }
 
 .content_left_title, .title_announce, .title_trending{
     font-size: 20px;
     font-weight: 700;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
@@ -182,21 +183,21 @@ body {
 .projects{
     display: grid;
     grid-template-columns: repeat(2, minmax(100px, 1fr));
-    gap: 10px;
+    gap: 30px;
     align-items: center;
 }
 
 .card1, .card2,
 .card3, .card4,
 .card5, .card6 {
-    max-height: 200px;
+    height: 186px;
     background-color: #ffffff;
     border-radius: 15px;
     text-align: left;
     padding: 20px;
     border-left: 6px solid #da881e;
-    text-overflow: ellipsis;
     font-size: 15px;
+    overflow: hidden;
 }
 
 .ptitle1, .ptitle2, .ptitle3,
@@ -205,6 +206,16 @@ body {
 .ptitle10{
     font-size: x-large;
     font-weight: 800;
+}
+
+.pcontent1, .pcontent2, .pcontent3,
+.pcontent4, .pcontent5, .pcontent6,
+.pcontent7, .pcontent8, .pcontent9,
+.content10{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
 }
 
 .content_announcement, .content_trending{
