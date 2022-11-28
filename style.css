@@ -163,7 +163,6 @@ body {
     grid-template-columns: 3.5fr 1fr;
     background-color: lightgrey;
     gap: 15px;
-    height:100%;
     padding-bottom: 20px;
 }
 
