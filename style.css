@@ -200,7 +200,6 @@ body {
     overflow: hidden;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 50px;
 }
 
 .ptitle1, .ptitle2, .ptitle3,
@@ -221,16 +220,17 @@ body {
     -webkit-line-clamp: 4;
 }
 
-.picons1{
+.picons{
     display: grid;
-    grid-template-columns: repeat(3, 30px);
+    grid-template-columns: 1fr repeat(3, 30px);
     height: 20px;
-    border: 5px solid black;
     align-self: end;
+    gap: 10px;
 }
 
 .star, .heart, .share{
     border-style: none;
+    background-color: white;
 }
 
 .content_announcement, .content_trending{
