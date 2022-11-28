@@ -67,7 +67,6 @@ body {
     background-color: image;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    box-shadow: 1px 10px 5px #acabab;
 }
 
 .headertop{
@@ -91,7 +90,7 @@ body {
     font-size: 18px;
     padding-left: 15px;
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .htopright{
