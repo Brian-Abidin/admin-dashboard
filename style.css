@@ -23,8 +23,7 @@ body {
 .box10 {
     display: grid;
     grid-template-columns: 1fr 2.5fr;
-    align-items: center;text-overflow: ellipsis;
-    overflow: hidden;
+    align-items: center;
 }
 
 .icon2, .icon3, .icon4, 
@@ -163,8 +162,9 @@ body {
     display: grid;
     grid-template-columns: 3.5fr 1fr;
     background-color: lightgrey;
-    padding-bottom: 70px;
     gap: 15px;
+    height:100%;
+    padding-bottom: 20px;
 }
 
 .content_left_title, .title_announce, .title_trending{
@@ -188,7 +188,7 @@ body {
 .card1, .card2,
 .card3, .card4,
 .card5, .card6 {
-    height: 184px;
+    height: 138px;
     background-color: #ffffff;
     border-radius: 10px;
     text-align: left;
@@ -209,13 +209,20 @@ body {
 }
 
 .pcontent1, .pcontent2, .pcontent3,
-.pcontent4, .pcontent5, .pcontent6,
-.announce_content1, .announce_content2, .announce_content3{
+.pcontent4, .pcontent5, .pcontent6{
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
-    color: rgb(88, 88, 88);    
+    color: rgb(88, 88, 88); 
+}
+
+.announce_content1, .announce_content2, .announce_content3{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    color: rgb(88, 88, 88);
+    overflow: hidden;
 }
 
 .picons{
@@ -233,14 +240,19 @@ body {
 
 .content_announcement, .content_trending{
     background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    padding: 30px;
+    border-radius: 10px;
+    padding: 15px;
     font-size: 12px;
 }
 
 .content_announcement{
-    height: 260px;
-    width: 280px;
+    height: 270px;
+    width: 200px;
+}
+
+.content_trending{
+    height: 198px;
+    width: 200px;
 }
 
 .content_announcement, .content_trending{
@@ -261,7 +273,11 @@ body {
 
 .announce_content1, .announce_content2{
     border-bottom: 2px solid rgb(112, 112, 112);
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.announce_content3{
+    padding-bottom: 20px;
 }
 
 .announce_title2, .announce_title3{
