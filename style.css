@@ -82,10 +82,6 @@ body {
     margin-left: 40px;
 }
 
-.iconbar{
-    padding-left: 15px;
-}
-
 .searchbar{
     height: 30px;
     border-radius: 30px;
@@ -212,12 +208,11 @@ body {
 
 .pcontent1, .pcontent2, .pcontent3,
 .pcontent4, .pcontent5, .pcontent6,
-.pcontent7, .pcontent8, .pcontent9,
-.content10{
+.announce_content1, .announce_content2, .announce_content3{
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
 }
 
 .picons{
@@ -225,7 +220,7 @@ body {
     grid-template-columns: 1fr repeat(3, 30px);
     height: 20px;
     align-self: end;
-    gap: 10px;
+    
 }
 
 .star, .heart, .share{
@@ -250,14 +245,15 @@ body {
 .trend_tag3, .trend_tag4{
     font-weight:700;
 }
+
+.trend_name1, .trend_name2, .trend_name3,
+.trend_name4{
+    color: grey;
+}
+
 .announce_content1, .announce_content2{
     border-bottom: 2px solid rgb(112, 112, 112);
     padding-bottom: 10px;
-}
-
-.announce_content1, .announce_content2, .announce_content3{
-    text-overflow: ellipsis;
-    overflow: hidden;
 }
 
 .announce_title2, .announce_title3{
@@ -275,6 +271,6 @@ body {
 }
 
 .title_trending{
-    padding-top: 20px;
+    padding-top: 60px;
 }
 
