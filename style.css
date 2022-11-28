@@ -188,7 +188,7 @@ body {
 .card1, .card2,
 .card3, .card4,
 .card5, .card6 {
-    height: 138px;
+    height: 154px;
     background-color: #ffffff;
     border-radius: 10px;
     text-align: left;
@@ -246,12 +246,16 @@ body {
 }
 
 .content_announcement{
+    padding-bottom: 50px;
+}
+
+.content_announcement{
     height: 270px;
     width: 200px;
 }
 
 .content_trending{
-    height: 198px;
+    height: 210px;
     width: 200px;
 }
 
@@ -271,17 +275,25 @@ body {
     color: grey;
 }
 
-.announce_content1, .announce_content2{
+.announce1, .announce2{
     border-bottom: 2px solid rgb(112, 112, 112);
-    padding-bottom: 15px;
+}
+
+.announce_content1, .announce_content2{
+    margin-bottom: 20px;
+    height: 50px;
+    padding-top: 10px;
 }
 
 .announce_content3{
     padding-bottom: 20px;
+    padding-top: 10px;
+    height: 30px;
 }
 
 .announce_title2, .announce_title3{
     padding-top: 10px;
+    border-top: 2px solid rgb(112, 112, 112);
 }
 
 .trend1, .trend2, .trend3, .trend4{
