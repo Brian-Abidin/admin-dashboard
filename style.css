@@ -188,14 +188,14 @@ body {
 .card5, .card6 {
     height: 186px;
     background-color: #ffffff;
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: left;
     padding: 20px;
-    border-left: 6px solid #da881e;
+    border-left: 10px solid #da881e;
     font-size: 15px;
-    overflow: hidden;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    
 }
 
 .ptitle1, .ptitle2, .ptitle3,
@@ -240,6 +240,10 @@ body {
     width: 280px;
 }
 
+.content_announcement, .content_trending{
+    margin-right: 20px;
+}
+
 .announce_title1, .announce_title2, .announce_title3, 
 .trend_tag1, .trend_tag2, 
 .trend_tag3, .trend_tag4{
@@ -274,3 +278,10 @@ body {
     padding-top: 60px;
 }
 
+.card1, .card2,
+.card3, .card4,
+.card5, .card6, .content_announcement, 
+.content_trending{
+    box-shadow: 5px 5px #acabab;
+
+}
