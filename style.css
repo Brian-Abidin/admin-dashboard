@@ -59,7 +59,8 @@ body {
 
 .container2{
     display: grid;
-    grid-template-rows: 200px 4fr;
+    grid-template-rows: 160px 4fr;
+    background-color: rgb(255, 255, 255);
 }
 
 .header{
@@ -72,7 +73,7 @@ body {
 .headertop{
     display: grid;
     grid-template-columns: 2.5fr 1fr;
-    
+    height: 60px;
 }
 
 .htopleft{
@@ -119,6 +120,7 @@ body {
 .headerbottom{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-bottom: 10px;
 }
 
 .hbotleft{
@@ -163,6 +165,7 @@ body {
     grid-template-columns: 3.5fr 1fr;
     background-color: lightgrey;
     padding-bottom: 70px;
+    gap: 15px;
 }
 
 .content_left_title, .title_announce, .title_trending{
@@ -186,7 +189,7 @@ body {
 .card1, .card2,
 .card3, .card4,
 .card5, .card6 {
-    height: 186px;
+    height: 184px;
     background-color: #ffffff;
     border-radius: 10px;
     text-align: left;
@@ -195,7 +198,7 @@ body {
     font-size: 15px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    
+    min-width: 120px;
 }
 
 .ptitle1, .ptitle2, .ptitle3,
@@ -213,6 +216,7 @@ body {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
+    color: rgb(88, 88, 88);    
 }
 
 .picons{
@@ -220,7 +224,7 @@ body {
     grid-template-columns: 1fr repeat(3, 30px);
     height: 20px;
     align-self: end;
-    
+    gap: 1em;
 }
 
 .star, .heart, .share{
@@ -232,11 +236,11 @@ body {
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     padding: 30px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .content_announcement{
-    height: 280px;
+    height: 260px;
     width: 280px;
 }
 
@@ -248,6 +252,7 @@ body {
 .trend_tag1, .trend_tag2, 
 .trend_tag3, .trend_tag4{
     font-weight:700;
+    font-size: 15px;
 }
 
 .trend_name1, .trend_name2, .trend_name3,
@@ -274,14 +279,9 @@ body {
     padding-bottom: 20px;
 }
 
-.title_trending{
-    padding-top: 60px;
-}
-
 .card1, .card2,
 .card3, .card4,
 .card5, .card6, .content_announcement, 
 .content_trending{
     box-shadow: 5px 5px #acabab;
-
 }
