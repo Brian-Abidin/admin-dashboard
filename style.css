@@ -198,6 +198,8 @@ body {
     border-left: 6px solid #da881e;
     font-size: 15px;
     overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .ptitle1, .ptitle2, .ptitle3,
@@ -216,6 +218,12 @@ body {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
+}
+
+.picons1{
+    width: 200px;
+    height: 20px;
+    border-style: none;
 }
 
 .content_announcement, .content_trending{
