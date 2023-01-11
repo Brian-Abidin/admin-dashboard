@@ -1,253 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Admin Dashboard</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <script src="admin.js" defer></script>
-    </head>
+  <head>
+    <title>Admin Dashboard</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="admin.js" defer></script>
+  </head>
 
-    <body>
-        <div class="outline">
-            <div class="sidebar">
-                <div class="box1">
-                    <img class="icon1" src="icons/dashboard.png" alt="Dashboard">
-                    <div class="icon_name1">Dashboard</div>
-                </div>
-                <div class="box2">
-                    <img class="icon2" src="icons/home.png" alt="Home">
-                    <div class="icon_name2">Home</div>
-                </div>
-                <div class="box3">
-                    <img class="icon3" src="icons/profile.png" alt="Profile">
-                    <div class="icon_name3">Profile</div>
-                </div>
-                <div class="box4">
-                    <img class="icon4" src="icons/messages.png" alt="Messages">
-                    <div class="icon_name4">Messages</div>
-                </div>
-                <div class="box5">
-                    <img class="icon5" src="icons/history.png" alt="History">
-                    <div class="icon_name5">History</div>
-                </div>
-                <div class="box6">
-                    <img class="icon6" src="icons/tasks.png" alt="Tasks">
-                    <div class="icon_name6">Tasks</div>
-                </div>
-                <div class="box7">
-                    <img class="icon7" src="icons/communities.png" alt="Communities">
-                    <div class="icon_name7">Communities</div>
-                </div>
-                <div class="botbox">
-                    <div class="box8">
-                        <img class="icon8" src="icons/settings.png" alt="Settings">
-                        <div class="icon_name8">Settings</div>
-                    </div>
-                    <div class="box9">
-                        <img class="icon9" src="icons/support.png" alt="Support">
-                        <div class="icon_name9">Support</div>
-                    </div>
-                    <div class="box10">
-                        <img class="icon10" src="icons/privacy.png" alt="Privacy">
-                        <div class="icon_name10">Privacy</div>
-                    </div>
-                </div>
-            </div>
-            <div class="container2">
-                <div class="header">
-                    <div class="headertop">
-                        <div class="htopleft">
-                            <img class="iconbar" src="icons/search_black.png" alt="Search">
-                            <input class="searchbar" type="text">
-                        </div>
-                        <div class="htopright">
-                            <img class="notifications" src="icons/notifications_black.png" alt="notifications">
-                            <div class="profile">
-                                <img class="headerprofile" src="icons/profile_black_med.png" alt="headerprofile">
-                                <div class="username">Morgan Stanley</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="headerbottom">
-                        <div class="hbotleft">
-                            <img class="profilebig" src="icons/profile_black_big.png" alt="headerprofile">
-                            <div class="greeting">
-                                <div class="greet">Hi There,</div>
-                                <div class="greetingname">Morgan Stanley (@morgan)</div>
-                            </div>
-                        </div>
-                        <div class="hbotright">
-                            <button class="newbtn">New</button>
-                            <button class="uploadbtn">Upload</button> 
-                            <button class="sharebtn">Share</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="content_left">
-                        <div class="content_left_title">Your Projects</div>
-                        <div class="projects">
-                            <div class="card1">
-                                <div class="pgroup">
-                                    <div class="ptitle1">Super Cool Project</div>
-                                    <div class="pcontent1">Ipsa alias omnis iste magnam dicta dolorem incidunt itaque facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae et voluptatem? Asperiores, sed praesentium!</div>
-                                </div>
-                                <div class="picons">
-                                    <div></div>
-                                    <button class="star">
-                                        <img class="iconstar" src="icons/star.png" alt="headerprofile">
-                                    </button>
-                                    <button class="heart">
-                                        <img class="iconheart" src="icons/heart.png" alt="headerprofile">
-                                    </button>
-                                    <button class="share">
-                                        <img class="iconshare" src="icons/share.png" alt="headerprofile">
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="card2">
-                                <div class="pgroup">
-                                    <div class="ptitle2">Super Cool Project</div>
-                                    <div class="pcontent2">Ipsa alias omnis iste magnam dicta dolorem incidunt itaque facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae et voluptatem? Asperiores, sed praesentium!</div>
-                                </div>
-                                <div class="picons">
-                                    <div></div>
-                                    <button class="star">
-                                        <img class="iconstar" src="icons/star.png" alt="headerprofile">
-                                    </button>
-                                    <button class="heart">
-                                        <img class="iconheart" src="icons/heart.png" alt="headerprofile">
-                                    </button>
-                                    <button class="share">
-                                        <img class="iconshare" src="icons/share.png" alt="headerprofile">
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="card3">
-                                <div class="pgroup">
-                                    <div class="ptitle3">Super Cool Project</div>
-                                    <div class="pcontent3">Ipsa alias omnis iste magnam dicta dolorem incidunt itaque facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae et voluptatem? Asperiores, sed praesentium!</div>
-                                </div>
-                                <div class="picons">
-                                    <div></div>
-                                    <button class="star">
-                                        <img class="iconstar" src="icons/star.png" alt="headerprofile">
-                                    </button>
-                                    <button class="heart">
-                                        <img class="iconheart" src="icons/heart.png" alt="headerprofile">
-                                    </button>
-                                    <button class="share">
-                                        <img class="iconshare" src="icons/share.png" alt="headerprofile">
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="card4">
-                                <div class="pgroup">
-                                    <div class="ptitle4">Super Cool Project</div>
-                                    <div class="pcontent4">Ipsa alias omnis iste magnam dicta dolorem incidunt itaque facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae et voluptatem? Asperiores, sed praesentium!</div>
-                                </div>
-                                <div class="picons">
-                                    <div></div>
-                                    <button class="star">
-                                        <img class="iconstar" src="icons/star.png" alt="headerprofile">
-                                    </button>
-                                    <button class="heart">
-                                        <img class="iconheart" src="icons/heart.png" alt="headerprofile">
-                                    </button>
-                                    <button class="share">
-                                        <img class="iconshare" src="icons/share.png" alt="headerprofile">
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="card5">
-                                <div class="pgroup">
-                                    <div class="ptitle5">Super Cool Project</div>
-                                    <div class="pcontent5">Ipsa alias omnis iste magnam dicta dolorem incidunt itaque facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae et voluptatem? Asperiores, sed praesentium!</div>
-                                </div>
-                                <div class="picons">
-                                    <div></div>
-                                    <button class="star">
-                                        <img class="iconstar" src="icons/star.png" alt="headerprofile">
-                                    </button>
-                                    <button class="heart">
-                                        <img class="iconheart" src="icons/heart.png" alt="headerprofile">
-                                    </button>
-                                    <button class="share">
-                                        <img class="iconshare" src="icons/share.png" alt="headerprofile">
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="card6">
-                                <div class="pgroup">
-                                    <div class="ptitle6">Super Cool Project</div>
-                                    <div class="pcontent6">Ipsa alias omnis iste magnam dicta dolorem incidunt itaque facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae et voluptatem? Asperiores, sed praesentium!</div>
-                                </div>
-                                <div class="picons">
-                                    <div></div>
-                                    <button class="star">
-                                        <img class="iconstar" src="icons/star.png" alt="headerprofile">
-                                    </button>
-                                    <button class="heart">
-                                        <img class="iconheart" src="icons/heart.png" alt="headerprofile">
-                                    </button>
-                                    <button class="share">
-                                        <img class="iconshare" src="icons/share.png" alt="headerprofile">
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content_right">
-                        <div class="title_announce">Announcements</div>
-                        <div class="content_announcement">
-                            <div class="annouce1">
-                                <div class="announce_title1">Site Maintenance</div>
-                                <div class="announce_content1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores voluptatum ipsa cupiditate unde</div>
-                            </div>
-                            <div class="annouce2">
-                                <div class="announce_title2">Community Share Day</div>
-                                <div class="announce_content2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores voluptatum ipsa cupiditate unde</div>
-
-                            </div>
-                            <div class="annouce3">
-                                <div class="announce_title3">Updated Privacy Policy</div>
-                                <div class="announce_content3">Ipsa alias omnis iste magnam dicta dolorem incidunt itaque facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae et voluptatem? Asperiores, sed praesentium!</div>
-                            </div>
-                        </div>
-                        <div class="title_trending">Trending</div>
-                        <div class="content_trending">
-                            <div class="trend1">
-                                <img class="trendprof" src="icons/profile_black_med.png" alt="Search">
-                                <div class="trend_user1">
-                                    <div class="trend_tag1">@tegan</div>
-                                    <div class="trend_name1">World Peace Builder</div>
-                                </div>
-                            </div>
-                            <div class="trend2">
-                                <img class="trendprof" src="icons/profile_black_med.png" alt="Search">
-                                <div class="trend_user2">
-                                    <div class="trend_tag2">@morgan</div>
-                                    <div class="trend_name2">Super Cool Project</div>
-                                </div>
-                            </div>
-                            <div class="trend3">
-                                <img class="trendprof" src="icons/profile_black_med.png" alt="Search">
-                                <div class="trend_user3">
-                                    <div class="trend_tag3">@kendall</div>
-                                    <div class="trend_name3">Life Changing App</div>
-                                </div>
-                            </div>
-                            <div class="trend4">
-                                <img class="trendprof" src="icons/profile_black_med.png" alt="Search">
-                                <div class="trend_user4">   
-                                    <div class="trend_tag4">@alex</div>
-                                    <div class="trend_name4">No Traffic Maker</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <body>
+    <div class="outline">
+      <div class="sidebar">
+        <div class="box1">
+          <img class="icon1" src="icons/dashboard.png" alt="Dashboard" />
+          <div class="icon_name1">Dashboard</div>
         </div>
-    </body>
+        <div class="box2">
+          <img class="icon2" src="icons/home.png" alt="Home" />
+          <div class="icon_name2">Home</div>
+        </div>
+        <div class="box3">
+          <img class="icon3" src="icons/profile.png" alt="Profile" />
+          <div class="icon_name3">Profile</div>
+        </div>
+        <div class="box4">
+          <img class="icon4" src="icons/messages.png" alt="Messages" />
+          <div class="icon_name4">Messages</div>
+        </div>
+        <div class="box5">
+          <img class="icon5" src="icons/history.png" alt="History" />
+          <div class="icon_name5">History</div>
+        </div>
+        <div class="box6">
+          <img class="icon6" src="icons/tasks.png" alt="Tasks" />
+          <div class="icon_name6">Tasks</div>
+        </div>
+        <div class="box7">
+          <img class="icon7" src="icons/communities.png" alt="Communities" />
+          <div class="icon_name7">Communities</div>
+        </div>
+        <div class="botbox">
+          <div class="box8">
+            <img class="icon8" src="icons/settings.png" alt="Settings" />
+            <div class="icon_name8">Settings</div>
+          </div>
+          <div class="box9">
+            <img class="icon9" src="icons/support.png" alt="Support" />
+            <div class="icon_name9">Support</div>
+          </div>
+          <div class="box10">
+            <img class="icon10" src="icons/privacy.png" alt="Privacy" />
+            <div class="icon_name10">Privacy</div>
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="header">
+          <div class="headertop">
+            <div class="htopleft">
+              <img class="iconbar" src="icons/search_black.png" alt="Search" />
+              <input class="searchbar" type="text" />
+            </div>
+            <div class="htopright">
+              <img
+                class="notifications"
+                src="icons/notifications_black.png"
+                alt="notifications"
+              />
+              <div class="profile">
+                <img
+                  class="headerprofile"
+                  src="icons/profile_black_med.png"
+                  alt="headerprofile"
+                />
+                <div class="username">Morgan Stanley</div>
+              </div>
+            </div>
+          </div>
+          <div class="headerbottom">
+            <div class="hbotleft">
+              <img
+                class="profilebig"
+                src="icons/profile_black_big.png"
+                alt="headerprofile"
+              />
+              <div class="greeting">
+                <div class="greet">Hi There,</div>
+                <div class="greetingname">Morgan Stanley (@morgan)</div>
+              </div>
+            </div>
+            <div class="hbotright">
+              <button class="newbtn">New</button>
+              <button class="uploadbtn">Upload</button>
+              <button class="sharebtn">Share</button>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content_left">
+            <div class="content_left_title">Your Projects</div>
+            <div class="projects">
+              <div class="card1">
+                <div class="pgroup">
+                  <div class="ptitle1">Super Cool Project</div>
+                  <div class="pcontent1">
+                    Ipsa alias omnis iste magnam dicta dolorem incidunt itaque
+                    facilis nemo aperiam. Reprehenderit porro eos dignissimos
+                    beatae et voluptatem? Asperiores, sed praesentium!
+                  </div>
+                </div>
+                <div class="picons">
+                  <div></div>
+                  <button class="star">
+                    <img
+                      class="iconstar"
+                      src="icons/star.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                  <button class="heart">
+                    <img
+                      class="iconheart"
+                      src="icons/heart.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                  <button class="share">
+                    <img
+                      class="iconshare"
+                      src="icons/share.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="card2">
+                <div class="pgroup">
+                  <div class="ptitle2">Super Cool Project</div>
+                  <div class="pcontent2">
+                    Ipsa alias omnis iste magnam dicta dolorem incidunt itaque
+                    facilis nemo aperiam. Reprehenderit porro eos dignissimos
+                    beatae et voluptatem? Asperiores, sed praesentium!
+                  </div>
+                </div>
+                <div class="picons">
+                  <div></div>
+                  <button class="star">
+                    <img
+                      class="iconstar"
+                      src="icons/star.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                  <button class="heart">
+                    <img
+                      class="iconheart"
+                      src="icons/heart.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                  <button class="share">
+                    <img
+                      class="iconshare"
+                      src="icons/share.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="card3">
+                <div class="pgroup">
+                  <div class="ptitle3">Super Cool Project</div>
+                  <div class="pcontent3">
+                    Ipsa alias omnis iste magnam dicta dolorem incidunt itaque
+                    facilis nemo aperiam. Reprehenderit porro eos dignissimos
+                    beatae et voluptatem? Asperiores, sed praesentium!
+                  </div>
+                </div>
+                <div class="picons">
+                  <div></div>
+                  <button class="star">
+                    <img
+                      class="iconstar"
+                      src="icons/star.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                  <button class="heart">
+                    <img
+                      class="iconheart"
+                      src="icons/heart.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                  <button class="share">
+                    <img
+                      class="iconshare"
+                      src="icons/share.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="card4">
+                <div class="pgroup">
+                  <div class="ptitle4">Super Cool Project</div>
+                  <div class="pcontent4">
+                    Ipsa alias omnis iste magnam dicta dolorem incidunt itaque
+                    facilis nemo aperiam. Reprehenderit porro eos dignissimos
+                    beatae et voluptatem? Asperiores, sed praesentium!
+                  </div>
+                </div>
+                <div class="picons">
+                  <div></div>
+                  <button class="star">
+                    <img
+                      class="iconstar"
+                      src="icons/star.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                  <button class="heart">
+                    <img
+                      class="iconheart"
+                      src="icons/heart.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                  <button class="share">
+                    <img
+                      class="iconshare"
+                      src="icons/share.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="card5">
+                <div class="pgroup">
+                  <div class="ptitle5">Super Cool Project</div>
+                  <div class="pcontent5">
+                    Ipsa alias omnis iste magnam dicta dolorem incidunt itaque
+                    facilis nemo aperiam. Reprehenderit porro eos dignissimos
+                    beatae et voluptatem? Asperiores, sed praesentium!
+                  </div>
+                </div>
+                <div class="picons">
+                  <div></div>
+                  <button class="star">
+                    <img
+                      class="iconstar"
+                      src="icons/star.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                  <button class="heart">
+                    <img
+                      class="iconheart"
+                      src="icons/heart.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                  <button class="share">
+                    <img
+                      class="iconshare"
+                      src="icons/share.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="card6">
+                <div class="pgroup">
+                  <div class="ptitle6">Super Cool Project</div>
+                  <div class="pcontent6">
+                    Ipsa alias omnis iste magnam dicta dolorem incidunt itaque
+                    facilis nemo aperiam. Reprehenderit porro eos dignissimos
+                    beatae et voluptatem? Asperiores, sed praesentium!
+                  </div>
+                </div>
+                <div class="picons">
+                  <div></div>
+                  <button class="star">
+                    <img
+                      class="iconstar"
+                      src="icons/star.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                  <button class="heart">
+                    <img
+                      class="iconheart"
+                      src="icons/heart.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                  <button class="share">
+                    <img
+                      class="iconshare"
+                      src="icons/share.png"
+                      alt="headerprofile"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content_right">
+            <div class="title_announce">Announcements</div>
+            <div class="content_announcement">
+              <div class="annouce1">
+                <div class="announce_title1">Site Maintenance</div>
+                <div class="announce_content1">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolores voluptatum ipsa cupiditate unde
+                </div>
+              </div>
+              <div class="annouce2">
+                <div class="announce_title2">Community Share Day</div>
+                <div class="announce_content2">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolores voluptatum ipsa cupiditate unde
+                </div>
+              </div>
+              <div class="annouce3">
+                <div class="announce_title3">Updated Privacy Policy</div>
+                <div class="announce_content3">
+                  Ipsa alias omnis iste magnam dicta dolorem incidunt itaque
+                  facilis nemo aperiam. Reprehenderit porro eos dignissimos
+                  beatae et voluptatem? Asperiores, sed praesentium!
+                </div>
+              </div>
+            </div>
+            <div class="title_trending">Trending</div>
+            <div class="content_trending">
+              <div class="trend1">
+                <img
+                  class="trendprof"
+                  src="icons/profile_black_med.png"
+                  alt="Search"
+                />
+                <div class="trend_user1">
+                  <div class="trend_tag1">@tegan</div>
+                  <div class="trend_name1">World Peace Builder</div>
+                </div>
+              </div>
+              <div class="trend2">
+                <img
+                  class="trendprof"
+                  src="icons/profile_black_med.png"
+                  alt="Search"
+                />
+                <div class="trend_user2">
+                  <div class="trend_tag2">@morgan</div>
+                  <div class="trend_name2">Super Cool Project</div>
+                </div>
+              </div>
+              <div class="trend3">
+                <img
+                  class="trendprof"
+                  src="icons/profile_black_med.png"
+                  alt="Search"
+                />
+                <div class="trend_user3">
+                  <div class="trend_tag3">@kendall</div>
+                  <div class="trend_name3">Life Changing App</div>
+                </div>
+              </div>
+              <div class="trend4">
+                <img
+                  class="trendprof"
+                  src="icons/profile_black_med.png"
+                  alt="Search"
+                />
+                <div class="trend_user4">
+                  <div class="trend_tag4">@alex</div>
+                  <div class="trend_name4">No Traffic Maker</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
